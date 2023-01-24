@@ -22,6 +22,6 @@ En modo usuario, los procesos obtienen su propio espacio de direcciones y no pue
 
 Cuando el proceso se ejecuta en modo de usuario y si ese proceso requiere recursos de hardware como RAM , impresora, etc., ese proceso debe enviar una solicitud al kernel. Estas solicitudes se envían a través de llamadas al sistema. Luego, la computadora ingresa al Modo Kernel desde el modo de usuario. Cuando se completa la tarea, el modo vuelve a cambiar al modo de usuario desde el modo kernel. Esta transición se conoce como “ cambio de contexto ”. El modo kernel también se denomina modo de sistema o modo privilegiado . No es posible ejecutar todos los procesos en el modo kernel porque si un proceso falla, todo el sistema operativo puede fallar.
 
-[**DIAGRAMA**](./actividad1/kernel.png)
+[**DIAGRAMA**](./kernel.png)
 
 [**REFERENCIA**](https://www.differencebetween.com/difference-between-user-mode-and-vs-kernel-mode/)
